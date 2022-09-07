@@ -1,0 +1,113 @@
+#nb {
+    background-color: grey;
+}
+
+ul.submenu {
+    font-size: large;
+    font-family: serif;
+    background-color: grey;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+ul.submenu li {
+    display: block;
+}
+ul.submenu li a {
+    display: block;
+    padding: 5px 10px;
+}
+ul.submenu {
+    background-color: grey;
+    border: 1px solid #ccc;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.manu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a {
+    padding: 10px 20px;
+    text-decoration: solid;
+}
+ul.submenu {
+    background-color: gray;
+    border: 1px solid #ccc;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+}
+.menu ul li:hover ul.submenu  {
+    display: block;
+}
+.jumbotron {
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    background-color: #aaa;
+    background-image: url(https://wallpapercave.com/wp/Ti6qoP7.jpg);
+    background-size: cover;    
+}
+.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+}
+.thumbnail {
+        background-color: white;
+        text-align: center;
+        padding: 12px;
+        width: 180px;
+        margin: 8px;
+        float: right;
+}
+.thumbnail img {
+        width: 80%;
+}    
+.content {
+    background-color: #ddd;
+    min-height: 500px;
+    overflow: auto;
+}
+.footer {
+    background-color: #ccc;
+    min-height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+h5{
+    color: black;
+    background-color: gray;
+    text-align: center;
+}
+a{
+    color: green;
+    background-color: gray;
+}
+p{
+    color: black;
+    background-color: grey;
+}
+h1{
+    color: black;
+    text-align: center;
+    background-color: grey;
+}
+label{
+    color: black;
+    background-color: grey;
+}
